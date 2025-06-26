@@ -1,0 +1,44 @@
+Q1 (css).txt
+.container{
+    height: 800px;
+    width: 800px;
+    background-color: black;
+    display: grid;
+    gap: 10px;
+    grid-template-columns:7fr 2.5fr 2.5fr 0.5fr;
+    grid-template-rows: 4fr 2.25fr 2.25fr 0.5fr;
+}
+
+#box-one{
+    background-color: red;
+    grid-area: 1/1/2/2;
+}
+#box-two{
+    background-color: rgb(189, 189, 189);
+    grid-area: 1/2/2/5;
+}
+#box-three{
+    background-color: rgb(189, 189, 189);
+    grid-area: 2/1/4/2;
+}
+#box-four{
+    background-color: rgb(189, 189, 189);
+    grid-area: 2/2/4/4;
+}
+#box-five{
+    background-color: rgb(189, 189, 189);
+}
+#box-six{
+    background-color: yellow;
+}
+#box-seven{
+    background-color: rgb(55, 55, 55);
+}
+#box-eight{
+    grid-area: 2/4/3/5;
+    background-color: darkblue;
+}
+#box-nine{
+    grid-area: 3/4/5/5;
+    background-color:rgb(189, 189, 189);
+}
