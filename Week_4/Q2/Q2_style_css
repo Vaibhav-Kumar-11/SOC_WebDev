@@ -1,0 +1,23 @@
+ques2.css
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p{
+    width: 320px;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#content-1{
+    font-size: 22px;
+}
