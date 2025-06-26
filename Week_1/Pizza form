@@ -1,0 +1,141 @@
+Pizza order Form.txt
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h2><u>Pizza Order Form</u></h2></header>
+
+    <main>
+        
+    <h3>Customer's details:</h3>
+        <div>
+            <ul>
+                <li>Customer's Name: <input type="text"></li>
+                <li>Phone no: <input type="number"></li>
+                <li>Email address(optional): <input type="email"></li>
+                <li>Delivery address: <input type="text"></li>
+                <li>City: <input type="text"></li>
+                <li>
+                    Preferred time slot: <select name="time">
+                    <option value="10am-11am">10am-11am</option>
+                    <option value="11am-12pm">11am-12pm</option>
+                    <option value="12pm-1pm">12pm-1pm</option>
+                    <option value="1pm-2pm">1pm-2pm</option>
+                    <option value="2pm-3pm">2pm-3pm</option>
+                    <option value="3pm-4pm">3pm-4pm</option>
+                    <option value="4pm-5pm">4pm-5pm</option>
+                    </select>
+                </li>    
+            </ul>
+        </div>
+
+    <h3>Pizza selection</h3>
+        <div>
+            <ul>
+                <li>Pizza Size: 
+                    <label for="1">
+                        <input type="radio" value="Small" name="class" id="1">Small</label>
+                    <label for="2">
+                        <input type="radio" value="Medium" name="class" id="2">Medium</label>
+                    <label for="3">
+                        <input type="radio" value="Large" name="class" id="3">Large</label>
+                    <label for="4">
+                        <input type="radio" value="Extra Large" name="class" id="4">Extra Large</label>
+                </li>
+
+                <li>
+                    Crust type: 
+                    <select name="Crust">
+                        <option value="Thin crust">Thin crust</option>
+                        <option value="Cheese burst">Cheese burst</option>
+                        <option value="Tandoori">Tandoori</option>
+                        <option value="Hand tossed">Hand tossed</option>
+                        <option value="Indie style">Indie style</option>
+                    </select>  
+                </li>
+
+                <li>
+                    Variety of pizzas: 
+                        <select name="Crust">
+                            <option value="Margherita">Margherita</option>
+                            <option value="Paneer Makhni">Paneer Makhni</option>
+                            <option value="Farmhouse">Farmhouse</option>
+                            <option value="Korean chicken">Korean chicken</option>
+                            <option value="Pepperoni">Pepperoni</option>
+                        </select>    
+                </li>
+
+                <li>Toppings:
+                    <ul><li>Veg toppings: <select name="Veg toppings">
+                            <option value="Onion">Onion</option>
+                            <option value="Paneer">Paneer</option>
+                            <option value="Tomato">Tomato</option>
+                            <option value="Jalapeno">Jalapeno</option>
+                            <option value="Corn">Corn</option>
+                            </select>
+                        </li>
+                    <li>Non-Veg toppings: <select name="Non-Veg toppings">
+                            <option value="Grilled chicken">Grilled chicken</option>
+                            <option value="Bacon">Bacon</option>
+                            <option value="Chicken sausage">Chicken sausage</option>
+                            <option value="Smokey chicken">Smokey chicken</option>
+                            <option value="Pepperoni">Pepperoni</option>
+                            </select>
+                    </li></ul>
+                </li>
+            </ul>
+        </div>
+        
+        <h3>Beverages and sides</h3>
+        <div>
+            <ul>
+                <li>
+                Beverages: 
+                <label for="101">
+                    <input type="checkbox" value="Coke" name="class" id="101">Coke
+                    </label>
+                <label for="201">
+                    <input type="checkbox" value="Sprite" id="201">Sprite
+                    </label>
+                <label for="301">
+                    <input type="checkbox" value="Pepsi" id="301">Pepsi
+                    </label>        
+                </li>
+
+                <li>
+                Sides: 
+                <label for="102">
+                    <input type="checkbox" value="Garlic bread" name="class" id="102">Garlic bread
+                    </label>
+                <label for="202">
+                    <input type="checkbox" value="Choco Lava Cake" id="202">Choco Lava Cake
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <h3>Payment Method</h3>
+        <div>
+            <label for="103">
+                <input type="radio" value="Cash on Delivery" name="class" id="103">Cash on Delivery
+            </label>
+            <label for="104">
+                <input type="radio" value="Net banking" name="class" id="104">Net banking
+            </label>
+        </div>
+    </main>
+
+    <footer>
+        <br>
+        <label for="01">
+            <input type="radio" value="I confirm that the order details are correct and I agree to the terms of service" name="class" id="01">I confirm that the order details are correct and I agree to the terms of service
+        </label>
+        <br>
+        <input type="Submit" value="Submit">
+    </footer>
+</body>
+</html>
