@@ -1,0 +1,35 @@
+Q1_html.txt
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2><b>I am Vaibhav 😁</b></h2>
+    <div id="line"></div>
+    <h3><u><b>This is a Short Intro about me</b></u></h3>
+
+    <div id="box_one">
+        Hello everyone my name is Vaibhav and I like to play kho-kho, cricket, valorant and many other sports.
+    </div>
+
+    <div id="box_two">
+        If you want to play chess with me --
+        >
+        <br>
+        <a href="https://www.chess.com/" target="_main" id="anchor_zero" class="anchor">My chess profile on "Chess.com"</a>  
+    </div>
+
+    <div id="box_three">
+        You can reach out to me on any of the below profiles
+        <a href="https://www.instagram.com/fr._.vaibhav/?next=%2F" target="_main" id="anchor_one" class="anchor">Instagram</a>  
+        <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="_main" id="anchor_two" class="anchor">LinkedIn</a>  
+        <br><br>
+        <a href="https://github.com/Vaibhav-Kumar-11" target="_main" id="anchor_three" class="anchor">GitHub</a>  
+    </div>
+</body>
+</html>
