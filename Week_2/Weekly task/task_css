@@ -1,0 +1,35 @@
+task_css.txt
+#heading{
+    color: white;
+    background-color: red;
+    width:250px;
+    height:30px;
+    text-align: center;
+    font-weight: 540;
+    font-size: 18px;
+}
+
+#middle{
+    background-color: rgb(39,39,93);
+    width:250px;
+    height:70px;
+}
+
+#bottom{
+    background-color: red;
+    width:250px;
+    height:30px;
+}
+
+#circle{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    position: relative;
+    top:-80px;
+    left:100px;
+    text-align: center;
+    font-weight: 545;
+    font-size: 16.5px;
+}
