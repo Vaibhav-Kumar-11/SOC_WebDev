@@ -1,0 +1,181 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+      body{
+        background-color: rgb(4, 4, 4);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <img src="2.jpg" alt="Logo" width="150px" height="100" class="d-inline-block align-text-top">
+            <h1 style="color: #fff;">Mustang</h1>
+          </div>
+        </nav>
+
+        <ul class="nav justify-content-end">
+        <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#" style="color: #fff; font-size: 23px;">Home</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#" style="color: #fff; font-size: 23px;">Our models</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#" style="color: #fff; font-size: 23px;">Build & Price</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#" style="color: #fff; font-size: 23px;">About Us</a>
+        </li>
+        </ul>
+  </div>
+</nav>  
+
+<div class="image">{
+  <img src="Three-mustang's-probably-for-cover-page.jpg" class="img-fluid">
+}
+</div>
+<figure class="text-center">
+  <blockquote class="blockquote">
+    <br><br><br>
+    <p style="font-size: 25px;">I've always been asked, 'What is my favorite car?' and I've always said 'The next one.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Source Title">Carroll Shelby</cite>
+  </figcaption>
+</figure>
+ 
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <img src="Mustang GT Convertible whitish tone.jpg" 
+           alt="Classic Mustang" width="100%" class="img-fluid rounded shadow" style="margin-top: 45px;">
+    </div>
+    
+    <div class="col-md-6 text-white px-5" data-aos="fade-up">
+      <h2 class="display-5 fw-bold">The Wind. The Roar. The Freedom.</h2>
+      <p style="font-size: 18px;">
+        Drop the top. Unleash the beast.  
+        <br><br>
+        0–100 in under 4 seconds. <br>
+        The Mustang GT Convertible brings the legendary 5.0L Coyote V8 to the open road. With 450+ horses at your command and a design that slices through the night, this isn’t just driving — <i>it’s flying low.</i>
+        <br>
+  
+<i></i>
+      </p>
+    </div>
+  </div>
+
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <img src="Mustang GT 5.O customized red.jpg" 
+           alt="Classic Mustang" width="100%" class="img-fluid rounded shadow">
+    </div>
+    <div class="col-md-6 text-white px-5" data-aos="fade-up">
+      <h2 class="display-5 fw-bold">The Bold. The Beautiful. The Brutal.</h2>
+      <p style="font-size: 20px;">
+        Real muscle. Real rage. Real Mustang.  
+        <br><br>
+        Custom widebody fenders. Blacked-out wheels. Aerodynamic lines that hug the road and whisper speed.
+
+With a 5.0L V8 at its heart and aggression in its blood, this Mustang GT is tuned to turn streets into stories
+      </p>
+    </div>
+  </div>
+
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <img src="GT 500-H (Hertz) black.jpg" 
+           alt="Classic Mustang" width="100%" class="img-fluid rounded shadow" style="margin-top: 45px;">
+    </div>
+    
+    <div class="col-md-6 text-white px-5" data-aos="fade-up">
+      <h2 class="display-5 fw-bold">Born for the Track. Bred for the Street.</h2>
+      <p style="font-size: 20px;">
+        This is Shelby.  
+        <br><br>
+        The 2022 Shelby GT500 Heritage Edition is a tribute to racing greatness.
+A supercharged 5.2L Predator V8 pushing over 760 HP, wrapped in iconic black & gold livery.
+<br><br>
+It doesn’t just go fast — it rewrites what fast means.
+      </p>
+    </div>
+  </div>
+</div>
+<br><br>
+<hr style="border: 0.1px solid rgb(59, 59, 59);">
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col md-8" style="color: #fff">
+      Company
+      <div class="subpart" style="margin-left: 60px; font-size: 13px;">
+        About The Legacy of Mustang
+        <br>
+        Future Goals
+        <br>
+        Careers
+      </div>
+    </div>
+    <div class="col md-8" style="color: #fff;">
+      Support
+      <br>
+      <div class="subpart" style="margin-left: 53px; font-size: 13px; ">
+        Customer care
+        <br>
+        Help?
+        <br>
+        FAQ's
+      </div>
+    </div>
+    <div class="col md-8" style="color: #fff;">
+      Legal
+      <br>
+      <div class="subpart" style="margin-left: 34px; font-size: 13px;">
+        Terms of Service
+        <br>
+        Privacy Policy
+        <br>
+        Cookie Policy
+      </div>
+  </div>
+  <div class="col md-8" style="color: #fff;">
+      Connect With Us
+      <br>
+      <div class="subpart" style="margin-left: 107px; font-size: 13px;">
+        <a href="#">Instagram</a> <br> 
+        <a href="#">Facebook</a> <br>
+        <a href="#">Twitter</a> <br>
+      </div>
+     </div> 
+  </div>
+  <br><br>
+  <figure class="text-center">
+  <blockquote class="blockquote">
+    <p>@2025 Mustang. All rights reserved.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Designed with love for<cite title="Source Title">Mustang enthusiasts</cite>
+  </figcaption>
+</figure>
+</div>
+<!--  Animantion's help taken from open source -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>  
+
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
