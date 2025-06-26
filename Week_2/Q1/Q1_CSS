@@ -1,0 +1,50 @@
+Q1_css.txt
+#line{
+    border:1.5px solid red;
+    position: relative;
+    top:-10px;
+}
+
+
+#box_one{
+    width: 300px;
+    border:2px solid black;
+    padding: 18px 18px 18px 18px;
+}
+#box_two{
+    border:2.5px solid blue;
+    width:240px;
+    height: 70px;
+    position: relative;
+    top:50px;
+    left:20px;
+    padding: 8px 2px 20px 8px;
+}
+#box_three{
+    position: relative;
+    left: 360px;
+    top:-70px;
+    border: 2.5px solid blue;
+    width: 200px;
+    height: 120px;
+    padding: 8px 5px 6px 8px;
+}
+
+
+.anchor{
+    border: 1.6px solid green;
+    padding:3px 2px 3px 2px;
+    position: relative;
+    color: blue;
+}
+#anchor_zero{
+    top:8px;
+    left:2px;
+}
+#anchor_one, #anchor_two, #anchor_three{
+    top:10px;
+    left:12px;
+}
+#anchor_two{
+    margin-left: 25px;
+}
