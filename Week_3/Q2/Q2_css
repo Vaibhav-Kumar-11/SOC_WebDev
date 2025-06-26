@@ -1,0 +1,383 @@
+Q2 (css).txt
+.outer{
+    background-image: linear-gradient(to top right,#0099ff,#94db3d);
+    height: 600px;
+    width: 600px;
+    color: white;  
+    text-align: center;
+    padding-top: 50px;
+} 
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+    padding-left: 120px;
+}
+
+#box-1,#box-2,#box-3,#box-4,#box-5,#box-6,#box-7,#box-8,#box-9{
+    border: 2px solid black;
+    border-radius: 5%;
+    width: 100px;
+    height: 100px;
+    margin-top:10px;
+    background-color: #478b9e;
+}
+
+#anime-201, #anime-202{
+    border: 2px solid white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#anime-201{
+   animation: C2-R101 0.3s ease-out 0s infinite alternate;
+   position: relative;
+   left: 30px;
+   top: 20px;
+}
+#anime-202{
+    animation: C2-R102 0.3s ease-out 0s infinite alternate;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+ 
+@keyframes C2-R101{
+    0%{
+        transform: translate(0,0);
+        opacity:0
+    }
+    25%{
+        transform: translate(30px,33px);
+        opacity:0.2
+    }
+    55%{
+        transform: translate(30px,33px);
+        opacity:0.3
+    }
+    75%{
+        transform: translate(30px,33px);
+        opacity:0.6
+    }
+    100%{
+        transform: translate(30px,33px);
+        opacity:1
+    }
+} 
+
+@keyframes C2-R102{
+    0%{
+        transform: translate(0,0);
+        opacity:0.1
+    }
+    25%{
+        transform: translate(20px,20px);
+        opacity:0.2
+    }
+    55%{
+        transform: translate(20px,20px);
+        opacity:0.3
+    }
+    75%{
+        transform: translate(20px,20px);
+        opacity:0.6
+    }
+    100%{
+        transform: translate(20px,20px);
+        opacity:0.9
+    }
+} 
+
+#anime-301, #anime-302{
+    border: 2px solid white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#anime-301{
+   animation: C3-R101 0.5s ease-out 0s infinite alternate;
+   position: relative;
+   left: 25px;
+   top: 60px;
+}
+#anime-302{
+    animation: C3-R102 0.5s ease-out 0s infinite alternate;
+   position: relative;
+   left: 60px;
+   top: 0px;
+}
+ 
+@keyframes C3-R101{
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(0px,-45px);
+    }
+} 
+
+@keyframes C3-R102{
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(0px,45px);
+    }
+}  
+
+#box-8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#anime-8{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-top: 60px;
+    animation: C2-R3 0.7s ease-out 0s infinite;
+}
+
+
+@keyframes C2-R3{
+    0% {
+    transform: translateY(0);
+    background-color: white; 
+    }
+  
+  50%{
+    transform: translateY(-50px) scale(1); /*Scale concept proved very crucial for me, as if not used to along the path wo size badal rha tha. */
+    opacity: 0.9;
+    }
+
+  100%{
+    transform: translateY(-50px) scale(4);
+    background-color: rgba(128, 128, 128);
+    border-color: rgba(128, 128, 128);
+    opacity: 0;
+    }
+}
+
+#box-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#anime-7{
+    border: 2px solid white;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin-top: -30px;
+    animation: C1-R3 2s forwards 0s infinite;
+}
+
+
+@keyframes C1-R3{
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(12px,0);
+    }
+    50%{
+        transform: translate(12px,20px);
+    }
+    75%{
+        transform: translate(-12px,20px);
+    }
+    100%{
+        transform: translate(-12px,0);
+    }
+}
+
+#box-9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#anime-901{
+    border: 2px solid white;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin-top: -30px;
+    animation: C3-R301 2s forwards 0s infinite;
+}
+#anime-902{
+    border: 2px solid white;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin-top: 16px;
+    animation: C3-R302 2s forwards 0s infinite;
+}
+
+
+@keyframes C3-R301{
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(23px,0);
+    }
+    50%{
+        transform: translate(23px,23px);
+    }
+    75%{
+        transform: translate(0px,23px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+
+}
+@keyframes C3-R302{
+    0%{
+        transform: translate(0px,0px);
+    }
+    25%{
+        transform: translate(-23px,0px);
+    }
+    50%{
+        transform: translate(-23px,-23px);
+    }
+    75%{
+        transform: translate(0px,-23px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+
+}
+
+#anime-4{
+    border: 2px solid white;
+    width:50px;
+    animation: moveFade 1s linear 0s infinite alternate;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+@keyframes moveFade {
+  0% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1
+  }
+  100% {
+    transform: translateX(20px);
+    opacity: 0
+  }
+}
+
+#anime-5{
+    border: 7px solid white;
+    border-top: 7px solid #478b9e;;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin: 20px 0px 0px 22px;
+    animation: C2-R2 1s linear 0s infinite;
+}
+
+@keyframes C2-R2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} 
+
+#anime-1{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+    animation: C1-R1 0.5s ease-in infinite;
+}
+
+@keyframes C1-R1{
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateX(50px);
+        opacity: 0.1;
+    }
+}
+
+#anime-601{
+    border: 1px solid white;
+    width: 1px;
+    height: 25px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 35px;
+    animation: C3-R201 1s linear 0s infinite ;
+}
+
+#anime-602{
+    border: 1px solid white;
+    width: 1px;
+    height: 25px;
+    background-color: white;
+    margin-top: -15px;
+    margin-left: 60px;
+    /* animation: C3-R202 1s linear 0s infinite ; */
+    animation: C3-R202 1s ease-in 0s infinite;
+}
+
+@keyframes C3-R201{
+    0%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    80%{
+        transform: translate(0,35px);
+        opacity: 0.5;
+    }
+    90%{
+        transform: translate(0,35px);
+        opacity: 0.3;
+    }
+    100%{
+        transform: translate(0,35px);
+        opacity: 0;
+    }
+}
+
+@keyframes C3-R202 {
+    0% {
+    transform: translate(0, 0);
+    opacity: 0;
+     }
+    90%{
+    transform: translate(0, 35px);
+    opacity: 1; 
+    }
+    100%{ 
+    transform: translate(0, 0);
+    opacity: 0; 
+    }
+}
