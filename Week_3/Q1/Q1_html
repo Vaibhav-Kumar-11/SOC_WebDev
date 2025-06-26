@@ -1,0 +1,25 @@
+Q1 (html).txt
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question1</title>
+    <link rel="stylesheet" href="style.Q1.css">
+</head>
+<body>
+  <main>
+      <div class="container">
+        <div id="box-one"></div>
+        <div id="box-two"></div>
+        <div id="box-three"></div>
+        <div id="box-four"></div>
+        <div id="box-five"></div>
+        <div id="box-six"></div>
+        <div id="box-seven"></div>
+        <div id="box-eight"></div>
+        <div id="box-nine"></div>
+    </div>
+  </main>
+</body>
+</html>
