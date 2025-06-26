@@ -1,0 +1,97 @@
+Q3_html.txt
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>
+            My Portfolio
+        </h2>
+    </header>
+    <br>
+    <br>
+    <main>
+        <h3>Vaibhav</h3>
+
+        <p>A student in <a href="https://www.iitb.ac.in/" target="_main" id="College"><b>IIT Bombay</b></a>, pursuing my B.Tech degree in <b>Aerospace Engineering.</b></p>
+
+        <div><p>I’m currently entering my second year of college, having gained a diverse range of experiences throughout my first year—from academic learnings to active involvement in various clubs and team projects. Building on that foundation, I’m now diving deeper into the technical side of things. I’ve recently started exploring HTML, Web Development, and Artificial Intelligence/machine learning (AI/ML), and I’m eager to strengthen my coding skills and problem-solving mindset. This phase is all about expanding my horizons, contributing to impactful projects, and aligning my interests with future-ready technologies.
+        </p></div>
+
+        <div><h3>Educational Background:</h3>
+        <p><b>• Indian Institute of Technology Bombay | 28'</b>
+        <br>
+        B. Tech in Aerospace Engineering
+        </p>
+
+        <p><b>• Rajasthan Public School - RBSE</b>
+        <br>
+        Class X to XII
+        </p>
+
+        <p><b>• Dundlod Public School - CBSE</b>
+        <br>
+        Class VII to X
+        </p>
+
+        <p><b>• Little Flower School - CBSE</b>
+        <br>
+        Nursery to Class VI
+        </p>
+        </div>
+        
+        <div><h3>Projects and Competitons:</h3>
+            <ul><li><b>XlR8:</b> Participated in a team of four within a highly competitive pool, contributing to an outstanding final day performance.</li>
+            <li><b>EnB Buzz:</b> Collaborated in a team of three to develop an innovative entrepreneurial idea, backed by real-time user feedback and data-driven analysis.</li>
+            <li><b>Freshiesta:</b> Appointed as the Vice Captain of the Kho Kho team and led the team to a bronze medal finish.</li>
+            </ul>
+           </div>
+
+        <div>
+            <h3>Skills:</h3>
+            
+            <ul><li><b>Programming Language:</b> C++</li>
+            <li><b>Software:</b> Canva, AutoDesk Fusion 360, Easy EDA, Basic excel</li>
+            <li><b>Others:</b> Ethical decision making, time management, team coordination, event management</li></ul>
+        </div>
+        
+        <div>
+            <h3>Experience:</h3>
+            <ul>
+                <li><b>IIT Bombay Racing Tech Team | Mechanical Subsystem</b>
+                <br>
+                Gained hands-on experience and expanded my technical knowledge of various automotive components and systems.</li>
+            </ul>    
+
+            <ul>
+                <li><b>Class Representative | Aerospace Engineering Association</b>
+                <br>
+                Collaborated effectively in team settings during my tenure as a Class Representative, tackling on-time challenges, facilitating smooth communication, and gaining hands-on leadership skills.</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact me at: <a href="https://www.instagram.com/fr._.vaibhav/" target="_main" >Instagram</a> 
+        &nbsp;
+        &nbsp;
+    <!-- Learnt new thing from chat gpt (how to space to the right other than pre coz pre mei size issues horhe the)    -->
+        <a href="https://www.linkedin.com/in/vaibhav-kumar-6a7b84330/" target="_main" >LinkedIn</a>
+        &nbsp;
+        &nbsp;
+        <a href="https://github.com/Vaibhav-Kumar-11" target="_main">GitHub</a>
+        &nbsp;
+        &nbsp;
+        <a href="24b0003@iitb.ac.in" target="_main">Email</a>
+        </p>
+        Contact no. 9352722250
+        <br><br>
+        Visit my <a href="RESUME_VAIBHAV_24B0003.pdf" target="_main" id="Resume">Resume</a>
+    </footer>
+</body>
+</html>
