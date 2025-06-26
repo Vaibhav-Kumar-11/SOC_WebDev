@@ -1,0 +1,21 @@
+media.css
+@media(max-width:450px){
+    .box{
+        width: 85%;
+    }
+}
+@media(max-width:730px) and (min-width:450px){
+    .box{
+        width:42%;
+    }
+}
+@media (min-width:730px) and (max-width:900px){
+    .box{
+        width:28%;
+    }
+}
+@media (min-width:900px){
+    .box{
+        width:17%;
+    }
+}
