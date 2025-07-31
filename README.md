@@ -1,4 +1,4 @@
-# 🌐 Web Development for Beginners – Summer of Science (SoS'25)
+# 🌐 Web Development for Beginners – Summer of Science (SoC'25)
 
 Welcome to my journey through the **SoS'25 Web Development course**! 🚀  
 This repository contains all the learnings and projects I built over the summer as part of a beginner-friendly dive into **HTML**, **CSS**, **Responsiveness**, and **Bootstrap**.
